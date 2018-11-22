@@ -1,0 +1,18 @@
+body{
+    margin:0;
+    padding: 20px;
+    background-color: rgb(187, 206, 206);
+    
+}
+
+.background-container{
+  display: grid;
+  grid-template-columns: repeat(3,360px);
+  grid-template-rows:535px;
+  background-color: white;
+  padding: 5px;
+  padding-right: 15px;
+}
+.grid1{
+    text-align: center;
+}

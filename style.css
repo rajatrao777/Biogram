@@ -6,8 +6,7 @@
 body{
     margin:0;
     padding: 20px;
-    background-color: rgb(187, 206, 206);
-    
+    background-color: rgb(187, 206, 206);   
 }
 
 .background-container{
@@ -32,15 +31,34 @@ body{
     width:21px;
     height:14px;
     padding-top: 6px;
+    padding-right: 7px;
     
 }
-#inputdata{
+ .inputdata{
     border-radius: 5px;
     text-align: left;
-    height: 20px;
-    border: none;
-    padding-top: 5px;
-    
-    background-position: 1px 1px;
-    background-repeat: no-repeat;
+    padding-left:30px;
+    height: 25px;
+    width:100%;
+    border: 1px solid lightgray;
+    padding-top: 3px;
+    /* background-image: url("microphone.png");
+    background-position: 5px 5px;
+    background-repeat: no-repeat; */
+    box-sizing: border-box;
+
+}
+.input_box{
+    position:relative;
+    width:200px;
+}
+.searchicon{
+    position:absolute;
+    top:6px;
+    left:7px;
+}
+.microphone_icon{
+    position:absolute;
+    top:6px;
+    right:5px;
 }

@@ -19,21 +19,28 @@ body{
   
 }
 .grid-first{
-    text-align: left;
+    display: grid;
+    
+    grid-template-columns: 30px 1fr;
+    
+    
+}
+.insta-img{
+    
+    display: grid;
+    align-items:end; 
+    padding-top: 2px; 
+}
+.text1{
+    display: grid;
+    align-items:end;
     font-family: billabong;
     font-size: 25px;
-    
 }
 .grid1{
     text-align: center;
 }
-.insta-img{
-    width:21px;
-    height:14px;
-    padding-top: 6px;
-    padding-right: 7px;
-    
-}
+
  .inputdata{
     border-radius: 5px;
     text-align: left;

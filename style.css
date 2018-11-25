@@ -271,4 +271,24 @@ body{
 }
 .i9:hover{
     box-shadow: 5px 5px 10px 5px lightcoral;
+}  
+/*----------grid---six----*/
+.grid-six{
+    display:grid;
+    padding-top:50px;
+    grid-template-rows:300px auto;
+    grid-template-columns:1fr; 
+    
+}
+.i10{
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    width:100%;
+    height:280px;
+}
+.s12{
+    box-sizing: border-box;
+    padding-left:20px;
+    
 }

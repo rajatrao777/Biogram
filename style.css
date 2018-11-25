@@ -11,7 +11,7 @@ body{
 
 .background-container{
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 1fr 2fr auto;
   grid-template-rows: 30px 2fr; 
   grid-column-gap:5px;
   

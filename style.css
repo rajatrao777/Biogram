@@ -68,7 +68,7 @@ body{
 /*------------------grid----three-----------*/
 .grid-three{
     display:grid;
-    grid-template-columns: 140px auto;
+    grid-template-columns: 140px 1fr;
    
 }
 .input2_box{

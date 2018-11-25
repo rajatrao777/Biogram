@@ -13,6 +13,8 @@ body{
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   grid-template-rows: 30px 2fr; 
+  grid-column-gap:5px;
+  
   background-color: white;
   padding: 5px;
   border-radius:5px; 
@@ -152,7 +154,7 @@ body{
 }
 .grid-sub-four{
     display: grid;
-    padding-top: 40px;
+    padding-top: 95px;
     grid-template-columns: 60px 80px 1fr;
     grid-template-rows:1fr 1fr ; 
     grid-auto-flow:column;
@@ -170,22 +172,22 @@ body{
 .s6{
     font-weight: 600;
     margin:0px;
-    padding-left: 15px;
+    padding-left: 5px;
 }
 .s7{
     color: grey;
     margin:0px;
-    padding-left: 30px;
+    padding-left: 20px;
 }
 .s8{
     font-weight: 600;
     margin:0px;
-    padding-left: 20px;
+    padding-left: 5px;
 }
 .s9{
     color: grey;
     margin:0px;
-    padding-left: 37px;
+    padding-left: 27px;
 }
 .context{
     padding-top: 50px;
@@ -205,4 +207,68 @@ body{
     width:20px;
     height:20px;
 }
-
+/*---------------grid--five------------------*/
+.grid-sub-five1{
+    display:grid;
+    padding-top:30px;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows:30px 
+}
+.s10{
+   font-weight:700;
+   font-size:15px;
+   padding-top: 16px;
+   margin-top:0px;   
+    
+}
+.s11{
+    display: grid;
+    color:rgb(75, 68, 68);
+    justify-items: end;
+}
+.grid-sub-five2{
+    display: grid;
+    padding-top:30px;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows:180px auto;
+    grid-column-gap:20px;
+}
+.i7{
+    width:140px;
+    height:180px;
+    border-radius:5px;
+    border: 1px solid lightgray;
+    transition: box-shadow 2s;
+}
+.i7:hover{
+    box-shadow: 5px 5px 10px 5px lightcoral;
+}
+.grid-sub-five3{
+    display:grid;
+    padding-top:30px;
+    grid-template-columns:1fr 30px 30px;
+    grid-template-rows:30px
+}
+.i8{
+    padding-top:12px;
+    width:15px;
+    height: 15px;
+}
+.grid-sub-five4{
+    display:grid;
+    padding-top:30px;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr;
+    grid-row-gap: 20px;
+    grid-column-gap:20px;
+}
+.i9{
+    width:200px;
+    height:250px;
+    border-radius:5px;
+    border: 1px solid lightgray;
+    transition: box-shadow 2s;
+}
+.i9:hover{
+    box-shadow: 5px 5px 10px 5px lightcoral;
+}
